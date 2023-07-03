@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+p{
+  line-height: 1.5em;
+}
+
+body{
+  background-color:#eeeeee
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  background-color: white;
+  position:fixed;
+  width:100%;
+  top:0;
+
+}
+
+
+.my-blog{
+color: deeppink;
+padding:1rem;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding:1rem
+}
+
+nav a {
+  text-decoration: none;
+  color:deeppink
+}
+
+section{
+  margin-top:10%;
+
+}
+
+.preview{
+  display:grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.preview-article{
+  padding:1em;
+  row-gap: 2em;
+}
+
+.preview-article p{
+  text-align: justify;
+}
+
+.preview-image{
+  padding: 2.5%;
+  width: 95%;
+  align-items: center;
+  object-fit: cover;
+
+
+
+}
